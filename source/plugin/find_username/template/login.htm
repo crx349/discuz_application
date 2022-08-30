@@ -1,0 +1,46 @@
+<!--{block return}-->
+<style>
+    input::-webkit-input-placeholder {
+        color: #999;
+        -webkit-transition: color.5s;
+    }
+    input:focus::-webkit-input-placeholder, input:hover::-webkit-input-placeholder {
+        color: #c2c2c2;
+        -webkit-transition: color.5s;
+    }
+</style>
+<script type="text/javascript">
+    function dfind(){
+        $('layer_find').style.display = 'block';
+        $('layer_find1').style.display = 'none';
+    }
+
+    </script>
+<div class="rfm" id="layer_find1" onclick="dfind();return false;">
+    <table>
+        <tbody><tr>
+            <th></th>
+            <td><label ><font color="red">{$dlang['lang13']}</font></label></td>
+        </tr>
+        </tbody></table>
+</div>
+
+
+<div id="layer_find" class="bm_c" style="display:none">
+    <div class="rfm">
+        <table>
+            <tbody><tr>
+                <th><label>{$dlang['lang11']}:</label></th>
+                <td><input type="text" name="find_email" id="find_email" autocomplete="off" size="30" class="px p_fre" tabindex="1" placeholder="{$dlang['lang12']}" value=""  onfocusout="ajaxget('plugin.php?id=find_username:username&formhash={FORMHASH}&find_email=' + this.value,'info_username')"></td>
+                <td>{$dlang['lang14']}</td>
+            </tr>
+            <tr>
+                <th></th>
+                <td id="info_username"></td>
+                <td></td>
+            </tr>
+            </tbody></table>
+    </div>
+</div>
+
+<!--{/block}-->

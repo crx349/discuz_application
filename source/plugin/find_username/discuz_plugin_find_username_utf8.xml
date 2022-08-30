@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="ISO-8859-1"?>
+<root>
+	<item id="Title"><![CDATA[Discuz! Plugin]]></item>
+	<item id="Version"><![CDATA[X3.3]]></item>
+	<item id="Time"><![CDATA[2022-08-30 15:20]]></item>
+	<item id="From"><![CDATA[Discuz! Board (http://127.0.0.1:8055/)]]></item>
+	<item id="Data">
+		<item id="plugin">
+			<item id="available"><![CDATA[1]]></item>
+			<item id="adminid"><![CDATA[0]]></item>
+			<item id="name"><![CDATA[找用户名]]></item>
+			<item id="identifier"><![CDATA[find_username]]></item>
+			<item id="description"><![CDATA[通过邮箱找回用户名]]></item>
+			<item id="datatables"><![CDATA[]]></item>
+			<item id="directory"><![CDATA[find_username/]]></item>
+			<item id="copyright"><![CDATA[无限星辰工作室 www.xmspace.net]]></item>
+			<item id="version"><![CDATA[V1.0.1]]></item>
+			<item id="__modules">
+				<item id="0">
+					<item id="name"><![CDATA[mobile]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[28]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="1">
+					<item id="name"><![CDATA[hook]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[11]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+				<item id="2">
+					<item id="name"><![CDATA[app]]></item>
+					<item id="param"><![CDATA[]]></item>
+					<item id="menu"><![CDATA[更多应用]]></item>
+					<item id="url"><![CDATA[]]></item>
+					<item id="type"><![CDATA[3]]></item>
+					<item id="adminid"><![CDATA[0]]></item>
+					<item id="displayorder"><![CDATA[0]]></item>
+					<item id="navtitle"><![CDATA[]]></item>
+					<item id="navicon"><![CDATA[]]></item>
+					<item id="navsubname"><![CDATA[]]></item>
+					<item id="navsuburl"><![CDATA[]]></item>
+				</item>
+			</item>
+		</item>
+		<item id="version"><![CDATA[X2,X2.5,X3,X3.1,X3.2,X3.3,X3.4,L1.0,F1.0]]></item>
+		<item id="var">
+			<item id="0">
+				<item id="displayorder"><![CDATA[0]]></item>
+				<item id="title"><![CDATA[是否启用]]></item>
+				<item id="description"><![CDATA[]]></item>
+				<item id="variable"><![CDATA[on_off]]></item>
+				<item id="type"><![CDATA[radio]]></item>
+				<item id="value"><![CDATA[1]]></item>
+				<item id="extra"><![CDATA[]]></item>
+			</item>
+		</item>
+		<item id="language">
+			<item id="scriptlang">
+				<item id="lang10"><![CDATA[找回用户名]]></item>
+				<item id="lang11"><![CDATA[邮箱找回]]></item>
+				<item id="lang12"><![CDATA[输入邮箱,如admin@admin.com]]></item>
+				<item id="lang13"><![CDATA[忘记用户名找回]]></item>
+				<item id="lang14"><![CDATA[提示：输入邮箱后,点击输入框外任意位置]]></item>
+				<item id="lang15"><![CDATA[关联用户名]]></item>
+				<item id="lang16"><![CDATA[位：]]></item>
+				<item id="lang17"><![CDATA[邮箱地址为空]]></item>
+				<item id="lang18"><![CDATA[此邮箱没有关联用户]]></item>
+				<item id="lang19"><![CDATA[邮件地址无效]]></item>
+			</item>
+			<item id="templatelang">
+				<item id="lang1"><![CDATA[无]]></item>
+			</item>
+		</item>
+	</item>
+</root>
